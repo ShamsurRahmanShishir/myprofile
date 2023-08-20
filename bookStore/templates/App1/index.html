@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+{% load static %}
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>MY Profile</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="{% static 'css/base.css' %}">  
+   <link rel="stylesheet" href="{% static 'css/main.css' %}">
+   <link rel="stylesheet" href="{% static 'css/vendor.css' %}">  
+   {% block css1 %} {% endblock css1 %} 
+   <title>{% block title %}Portfolio{% endblock title %}</title>   
+
+   
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="/"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="/">PORTFOLIO</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	<!--<li><a href="styles.html" title="">Style Demo</a></li>-->
+										
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello</h5>
+                <a href="" style="color: aliceblue;">I am MD.SHAMSUR RAHMAN SHISHIR</a>
+
+	   			<p class="intro-position">
+	   				<span>Django Developer</span>
+	   				<span>UI/UX Designer</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+		<li><a href="https://www.facebook.com/shamsur.rahman.9083" target="_black"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/md-shamsur-rahman-shishir-a57973213/" target="_black"><i class="fa fa-linkedin"></i></a></li>
+         <li><a href="https://twitter.com/Shamsurrahmans2"  target="_black"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://www.instagram.com/none_but_who/"  target="_black"><i class="fa fa-instagram" ></i></a></li>
+		 <li><a href="https://github.com/ShamsurRahmanShishir"  target="_black"><i class="fa fa-github" ></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="{%  static 'images/mp2.jpg'  %}" alt="Profile Picture">
+
+   				<p class="lead">This is MD. Shamsur Rahman Shishir, a dynamic individual aged 24. I have successfully earned a bachelor's degree in Electrical and Electronic Engineering from the prestigious Brac University. A true tech enthusiast at heart, I exhibits an exceptional passion for all things related to technology. With a knack for problem-solving, I find joy in tackling intricate programming challenges, showcasing a remarkable proficiency in this domain. Moreover, My skills extend to the realms of web design and circuit construction, where I have displayed a commendable aptitude with a zest for innovation and a penchant for mastering the intricacies of the digital world.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>To obtain a challenging and rewarding position in a growth-oriented company where I can utilize my skills and experience to contribute to the success of the organization while also expanding my knowledge and professional development.</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>MD.SHAMSUR RAHMAN SHISHIR</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>July 2, 1999</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Electrical and Electronic Engineer and <br>Python and Django Developer</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.softwe.com</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>shams007srs@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<p>I possesse a versatile skill set that reflects my dedication to both technology and innovation. With a solid foundation in Electrical and Electronic Engineering  I have honed my abilities in various domains. <br> (Python,C++,Django,HTML,JavaScript) </p>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Coding</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Web Design</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent80"><span>80%</span></div>
+				   	<strong>Backend Processing</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>HTML & CSS</strong>
+				   </li>
+				   <li>
+
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>Circuit Construction</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="{% static 'images/MD.Shamsur_Rahman_Shishir.pdf' %}" title="Download CV" class="button button-primary" target="blank
+			">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>Electrical and Electronics Engineering (EEE) 2023</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>BRAC University</h4>
+	   					<p> 2023
+                            Major: Electronics                                                  </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Higher Secondary Certificate</h3>
+	   					<p>2015 - 2017</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>BAF Shaheen Collage,Dhaka</h4>
+	   					<p>Group: Science                                         </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Secondary School Certificate</h3>
+	   					<p>2013 - 2015</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Bindubasini Govt Boys’ High School, Tangail </h4>
+	   					<p>Group:Science </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Web Development</h3>
+	   					<p>2023 Jan - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Able to build full-stack Websites Using Django Framework</h4>
+	   					<p> 
+                            </p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Participated in project-based competition                                                 </h3>
+	   					<p>2012 - 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Participate in National Science Fair in (School & Collage)</h4>
+	   					<p>2014 & 2016</p>
+	   				</div>
+
+
+					
+
+
+						</div> <!-- /timeline-block 
+						
+						<div class="timeline-block">
+
+							<div class="timeline-ico">
+								<i class="fa fa-briefcase"></i>
+							</div>
+	 
+							<div class="timeline-header">
+								<h3>Secondary School Certificate </h3>
+								<p>2014 - 2015</p>
+							</div>
+	 
+							<div class="timeline-content">
+								<h4>Bindubasini Govt Boys’ High School, Tangail </h4>
+								<p>Group:Science GPA : 5.00 out of 5.00</p>
+							</div>
+						
+						
+						
+						-->
+
+					
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead"></p>
+
+   		</div>   		
+   	</div>   
+
+
+	<div>
+
+
+		<div class="container text-center">
+			<div class="row">
+			  <div class="col">
+				<a href="https://github.com/ShamsurRahmanShishir" title="Download CV" class="button button-primary" target="blank
+			">Ecommerce WEbsites</a>
+			  </div>
+			  
+			  <div class="row">
+				<div class="col">
+				  <a href="https://github.com/ShamsurRahmanShishir" title="Download CV" class="button button-primary" target="blank
+			  ">Electrical Projects</a>
+				</div>
+			  <div class="col order-1">
+				<a href="{% url 'img' %}" title="Download CV" class="button button-primary" target="blank
+			">PhotoGraphy</a>
+			  </div>
+			</div>
+		  </div>
+
+
+	</div>
+
+	<!-- /section-intro--> 
+
+	<!--
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">  -->
+
+   			  <!-- portfolio-wrapper -->
+
+			  <!--
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="{% static 'images/portfolio/liberty.jpg' %}" alt="Liberty">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Liberty</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Graphic Design
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div>  -->
+					
+					
+					<!-- /folio-item -->
+
+
+					<!--
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="{% static 'images/portfolio/shutterbug.jpg' %}" alt="Shutterbug">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Shutterbug</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> -->
+					
+					<!-- /folio-item -->
+
+					<!--
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="{% static 'images/portfolio/clouds.jpg' %}"alt="Clouds">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Clouds</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Design
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>-->
+					
+					<!-- /folio-item -->
+
+					<!--
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="{% static 'images/portfolio/beetle.jpg' %}" alt="Beetle">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Beetle</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div>  -->
+					 <!-- /folio-item -->     
+
+
+					 <!--
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="{% static 'images/portfolio/lighthouse.jpg' %}" alt="Lighthouse">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Lighthouse</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Web Development
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> 
+					-->
+					
+					<!-- /folio-item -->
+
+
+					<!--
+
+					
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="{% static 'images/portfolio/salad.jpg' %}" alt="Salad">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Salad</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> 
+					-->
+					
+					<!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="{% static 'images/portfolio/modals/m-liberty.jpg' %}" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Liberty</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="{% static 'images/portfolio/modals/m-shutterbug.jpg' %}" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Shutterbug</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="{% static 'images/portfolio/modals/m-clouds.jpg' %}" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Clouds</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="{% static 'images/portfolio/modals/m-beetle.jpg' %}" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Beetle</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Lighthouse</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Web Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Salad</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+
+
+
+		<!-- CTA Section
+   ================================================== -->
+
+
+   <!--
+	<section id="cta" class="grey-section">
+
+		<div class="row cta-content">
+ 
+			<div class="col-twelve section-ads">  
+ 
+				  <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+ 
+			   <p class="lead">
+			   Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+				 Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+				  Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->	
+				 <!--
+
+					</p>
+ 
+				<div class="action">
+				  <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+			  </div>		     	
+
+		   </div>
+
+	   </div>    /cta-content -->
+
+    <!-- </section>  </cta -->
+				
+				
+  
+	 
+
+
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+			<!--<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>-->
+
+   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Webdesign</h3>
+
+		            <p class="desc">I'm proficient in writing clean and semantic HTML that forms the backbone of websites, ensuring accessibility and a solid foundation for design.With a passion for creating beautiful interfaces, I harness the power of CSS & JS to style and layout content, all while maintaining responsiveness and a consistent user experience across devices.
+
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Web Development</h3>  
+
+		            <p class="desc">My journey in web development started with a fascination for clean code and elegant solutions. Through Django, I've found a framework that aligns perfectly with these principles. From designing responsive frontends to architecting complex backends, I bring together the best of both worlds to deliver cohesive and compelling web solutions.
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3> IT Support</h3>
+
+		            <p class="desc">My journey in IT support began with a commitment to simplifying the complex and demystifying the digital. From troubleshooting technical glitches to setting up robust systems, I'm dedicated to making technology work for you.
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+
+			  
+
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>Software Quality Assurance (SQA)</h3>
+
+		            <p class="desc">Ensure that the end product of any (SDLC) fulfilled the overall agreed expectations.
+	         		</p> 
+	         		
+	            </div>                
+
+				</div>
+
+
+			   
+
+				 <!-- /service -->
+
+
+				
+
+					<div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Photography & Editing</h3>
+
+		            <p class="desc">Architectural Photography| Protrait Photography | Event Photography.
+	        			</p> 
+
+	            </div>	
+				
+
+			      <!--</div>-->            
+
+			    <!-- /service -->
+
+
+			   <!--
+
+
+				<div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Consultancy</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	        			
+	            </div>
+
+			   -->
+
+			   	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							5
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							2
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							5
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							10
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+						
+						<div class="icon-part">
+							<i class="icon-pen"></i>
+						</div>
+						
+
+						
+
+
+						<h3 class="stat-count">
+							50
+						</h3>
+					
+					
+						<h5 class="stat-title">
+							Problem Solves
+						
+
+						
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">Hello there! I'm thrilled to connect with you. Whether you have a question, a project idea, or just want to say hi, I'm all ears. Feel free to reach out using any of the methods below, and I'll get back to you as soon as I can.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve" style="text-align: center;">
+
+            <!-- form -->
+
+            <a href="{% url 'contact' %}"><button class="" >Contact Me</button></a>
+                     
+            
+
+      			
+      		 <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            GP-CCHA 1/2, Nirala Vhaban <br>
+			Mohakhali,Dhaka
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>shams007srs@gmail.com<br>
+                theonesrs@gmail.com			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+88) 01683211491<br>
+			   	Phone 2: (+88) 01302843909<br>
+			     	
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="https://www.facebook.com/shamsur.rahman.9083" target="_black"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="https://www.linkedin.com/in/md-shamsur-rahman-shishir-a57973213/" target="_black"><i class="fa fa-linkedin"></i></a></li>
+				  
+			      <li><a href="https://twitter.com/Shamsurrahmans2"  target="_black"><i class="fa fa-twitter"></i></a></li>
+			      
+			      <li><a href="https://www.instagram.com/none_but_who/"  target="_black"><i class="fa fa-instagram" ></i></a></li>
+			      <li><a href="https://github.com/ShamsurRahmanShishir"  target="_black"><i class="fa fa-github" ></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Shams.</span> 
+		        	<span>Design by <a href="#">Shams</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+
+   <!-- script
+   ================================================== -->   
+	<script src="{% static 'js/modernizr.js' %}"></script>
+	<script src="{% static 'js/pace.min.js' %}"></script>
+   <script src="{% static 'js/jquery-2.1.3.min.js'  %}"></script>
+   <script src="{% static 'js/plugins.js' %}"></script>
+   <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>

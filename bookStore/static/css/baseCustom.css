@@ -1,0 +1,39 @@
+
+
+body{
+  
+  background-image: linear-gradient(to right, black ,#990047);
+}
+
+
+.test{
+  text-decoration-color: aliceblue;
+}
+
+
+
+form {
+  background: rgba(226, 127, 167, 0.3);
+  padding: 3em;
+  height: 520px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(225, 141, 196, 0.3);
+  border-top: 1px solid rgba(236, 205, 232, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px #ebd1dd;
+  text-align: center;
+  text-decoration-color: aliceblue;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn{
+  background-color: #990047;
+}
+
+
+.con{
+  color: aliceblue;
+  padding: 5px;
+}
+
