@@ -41,5 +41,5 @@ Open a terminal and navigate to the project directory.
 
 
 # My portfolio link 
-https://srsprofile.pythonanywhere.com/#top
+[https://srsprofile.pythonanywhere.com/#top](https://shamsur.pythonanywhere.com/)https://shamsur.pythonanywhere.com/
 check it out
